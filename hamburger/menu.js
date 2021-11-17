@@ -1,7 +1,7 @@
 // Make sure all whole page has loaded before executing the script
 window.onload = function() {
-  const hamburger = document.querySelector(".mobile-trigger");
-  const navigation = document.querySelector(".desktop-links");
+  const hamburger = document.querySelector(".mobile-trigger"); // Set a constant variable for the hamburger link
+  const navigation = document.querySelector(".desktop-links"); // Set a constant variable for the unordered nav list
   
   // Toggle function checks the state of the navigation constant and displays or hides the links
   function toggle() {
@@ -16,24 +16,4 @@ window.onload = function() {
   // When it detects a click it executes the toggle() function above
   hamburger.addEventListener("click", toggle);
 };
-
-
-
-function playDrum() {
-  var audio = new Audio('link_to_sound_1');
-  audio.play();
-}
-
-function playBubble() {
-  var audio = new Audio('link_to_sound_1');
-  audio.play();
-}
-
-function playCymbal() {
-  var audio = new Audio('link_to_sound_1');
-  audio.play();
-}
-
-// This goes in the HTML
-<button onclick="playDrum()"></button>
 
