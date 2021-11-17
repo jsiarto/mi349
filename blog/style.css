@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: #ddd;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff;
+}
+
+header {
+    background: red;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 20px;
+}
+
+.blog header {
+    color: white;
+}
+
+#special {
+
+}
+
+a:hover {
+
+}
+
+a:visited {
+
+}
+
+a[] {
+
+}

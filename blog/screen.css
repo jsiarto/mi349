@@ -1,0 +1,49 @@
+body {
+    background: #ccc;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #000;
+}
+
+header {
+    background: #424242;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+    padding: 10px;
+    margin: 0;
+    background: rgba(212, 169, 160, 0.5);
+}
+
+.blog header {
+    background: red;
+}
+
+#todo {
+    background: blue;
+}
+
+.blog-image {
+    float: left;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+img.right {
+    float: right;
+}
+
+img {
+    width: 100%;
+}
